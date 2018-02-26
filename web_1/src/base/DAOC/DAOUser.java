@@ -12,25 +12,19 @@ public class DAOUser extends DAO {
         super();
     }
 
-    public User readUser(Integer id) throws Exception{
-        User user = null;
-        try{
-            cnr.getConnection();
-            final String read = "SELECT * FROM web1.users where id_user = ?";
-            PreparedStatement prst = cnr.getConn().prepareStatement(read);
-            prst.setInt(1,id);
-            ResultSet rs = prst.executeQuery();
-            user = new User();
-            rs.next();
-            user.id_user = rs.getInt(1);
-            user.name = rs.getString(2);
-            user.value = rs.getInt(3);
-        }catch(Exception e) {
-            throw new Exception(e.getMessage());
-        }
-        finally {
-            cnr.close();
-        }
+    public User readUser(Integer id) throws Exception {
+        User user;
+        Connection conn =  cpr.getConnection();
+        final String read = "SELECT * FROM web1.users where id_user = ?";
+        PreparedStatement prst = conn.prepareStatement(read);
+        prst.setInt(1, id);
+        ResultSet rs = prst.executeQuery();
+        user = new User();
+        rs.next();
+        user.id_user = rs.getInt(1);
+        user.name = rs.getString(2);
+        user.value = rs.getInt(3);
+        cpr.closeConnectin(conn);
         return user;
     }
 

@@ -15,8 +15,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/base/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,11 +27,13 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/dbC/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="21" column="69" lean-forward="false" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
               <folding>
                 <element signature="method#User#1;class#User#0" expanded="false" />
                 <element signature="method#User#2;class#User#0" expanded="false" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,8 +42,8 @@
       <file leaf-file-name="JdbcConnector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/Jdbc/JdbcConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getConn#0;class#JdbcConnector#0" expanded="false" />
@@ -51,12 +53,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="85">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JdbcConnectionPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/Jdbc/JdbcConnectionPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="30" column="62" lean-forward="true" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,12 +94,11 @@
       <file leaf-file-name="DAOUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="78" column="54" lean-forward="false" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
+            <state relative-caret-position="255">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#DAOUser#0;class#DAOUser#0" expanded="false" />
-                <element signature="method#readUser#0;class#DAOUser#0" expanded="false" />
                 <element signature="method#createUser#0;class#DAOUser#0" expanded="false" />
                 <element signature="method#deleteUser#0;class#DAOUser#0" expanded="false" />
                 <element signature="method#updateUser#0;class#DAOUser#0" expanded="false" />
@@ -90,30 +119,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DAOOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-              <folding>
-                <element signature="method#DAOOrder#0;class#DAOOrder#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DAOOrder_Ingredients.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOOrder_Ingredients.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-              <folding>
-                <element signature="method#DAOOrder_Ingredients#0;class#DAOOrder_Ingredients#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DAOCoffeMachine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOCoffeMachine.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,8 +134,8 @@
       <file leaf-file-name="DAOQueries.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOQueries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="136" column="5" lean-forward="false" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+            <state relative-caret-position="1241">
+              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#DAOQueries#0;class#DAOQueries#0" expanded="false" />
@@ -138,7 +143,6 @@
                 <element signature="method#q2#0;class#DAOQueries#0" expanded="false" />
                 <element signature="method#q3#0;class#DAOQueries#0" expanded="false" />
                 <element signature="method#q4_1#0;class#DAOQueries#0" expanded="false" />
-                <element signature="method#q4_2#0;class#DAOQueries#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -177,16 +181,18 @@
         <option value="$PROJECT_DIR$/src/base/dbC/Order.java" />
         <option value="$PROJECT_DIR$/src/base/dbC/order_ingredients.java" />
         <option value="$PROJECT_DIR$/src/base/JdbcConnector.java" />
-        <option value="$PROJECT_DIR$/src/base/DAOC/DAO.java" />
-        <option value="$PROJECT_DIR$/src/base/dbC/User.java" />
         <option value="$PROJECT_DIR$/src/base/Jdbc/JdbcConnector.java" />
-        <option value="$PROJECT_DIR$/src/base/DAOC/DAOUser.java" />
         <option value="$PROJECT_DIR$/src/base/DAOC/DAOOrder_Ingredients.java" />
         <option value="$PROJECT_DIR$/src/base/DAOC/DAOOrder.java" />
         <option value="$PROJECT_DIR$/src/base/DAOC/DAOIngredients.java" />
         <option value="$PROJECT_DIR$/src/base/DAOC/DAOCoffeMachine.java" />
-        <option value="$PROJECT_DIR$/src/base/Main.java" />
         <option value="$PROJECT_DIR$/src/base/DAOC/DAOQueries.java" />
+        <option value="$PROJECT_DIR$/src/base/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/base/DAOC/DAO.java" />
+        <option value="$PROJECT_DIR$/src/base/dbC/User.java" />
+        <option value="$PROJECT_DIR$/src/base/DAOC/DAOUser.java" />
+        <option value="$PROJECT_DIR$/src/base/Jdbc/JdbcConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/base/Main.java" />
       </list>
     </option>
   </component>
@@ -211,55 +217,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="web_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="DAOC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="dbC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="Jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,20 +321,20 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.355625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -381,11 +348,165 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DAOUser#0;class#DAOUser#0" expanded="false" />
+            <element signature="method#createUser#0;class#DAOUser#0" expanded="false" />
+            <element signature="method#deleteUser#0;class#DAOUser#0" expanded="false" />
+            <element signature="method#updateUser#0;class#DAOUser#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOIngredients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding>
+            <element signature="method#DAOIngredients#0;class#DAOIngredients#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOCoffeMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding>
+            <element signature="method#DAOCoffeMachine#0;class#DAOCoffeMachine#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOQueries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DAOQueries#0;class#DAOQueries#0" expanded="false" />
+            <element signature="method#q1#0;class#DAOQueries#0" expanded="false" />
+            <element signature="method#q2#0;class#DAOQueries#0" expanded="false" />
+            <element signature="method#q3#0;class#DAOQueries#0" expanded="false" />
+            <element signature="method#q4_1#0;class#DAOQueries#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/Jdbc/JdbcConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getConn#0;class#JdbcConnector#0" expanded="false" />
+            <element signature="method#close#0;class#JdbcConnector#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="54" lean-forward="false" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DAOUser#0;class#DAOUser#0" expanded="false" />
+            <element signature="method#createUser#0;class#DAOUser#0" expanded="false" />
+            <element signature="method#deleteUser#0;class#DAOUser#0" expanded="false" />
+            <element signature="method#updateUser#0;class#DAOUser#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOIngredients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding>
+            <element signature="method#DAOIngredients#0;class#DAOIngredients#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <element signature="method#DAOOrder#0;class#DAOOrder#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOOrder_Ingredients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <folding>
+            <element signature="method#DAOOrder_Ingredients#0;class#DAOOrder_Ingredients#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOCoffeMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding>
+            <element signature="method#DAOCoffeMachine#0;class#DAOCoffeMachine#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOQueries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="136" column="5" lean-forward="false" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DAOQueries#0;class#DAOQueries#0" expanded="false" />
+            <element signature="method#q1#0;class#DAOQueries#0" expanded="false" />
+            <element signature="method#q2#0;class#DAOQueries#0" expanded="false" />
+            <element signature="method#q3#0;class#DAOQueries#0" expanded="false" />
+            <element signature="method#q4_1#0;class#DAOQueries#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -420,7 +541,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -431,7 +558,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#DAOUser#0;class#DAOUser#0" expanded="false" />
-            <element signature="method#readUser#0;class#DAOUser#0" expanded="false" />
             <element signature="method#createUser#0;class#DAOUser#0" expanded="false" />
             <element signature="method#deleteUser#0;class#DAOUser#0" expanded="false" />
             <element signature="method#updateUser#0;class#DAOUser#0" expanded="false" />
@@ -480,7 +606,6 @@
             <element signature="method#q2#0;class#DAOQueries#0" expanded="false" />
             <element signature="method#q3#0;class#DAOQueries#0" expanded="false" />
             <element signature="method#q4_1#0;class#DAOQueries#0" expanded="false" />
-            <element signature="method#q4_2#0;class#DAOQueries#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -529,7 +654,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -540,7 +671,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#DAOUser#0;class#DAOUser#0" expanded="false" />
-            <element signature="method#readUser#0;class#DAOUser#0" expanded="false" />
             <element signature="method#createUser#0;class#DAOUser#0" expanded="false" />
             <element signature="method#deleteUser#0;class#DAOUser#0" expanded="false" />
             <element signature="method#updateUser#0;class#DAOUser#0" expanded="false" />
@@ -599,7 +729,6 @@
             <element signature="method#q2#0;class#DAOQueries#0" expanded="false" />
             <element signature="method#q3#0;class#DAOQueries#0" expanded="false" />
             <element signature="method#q4_1#0;class#DAOQueries#0" expanded="false" />
-            <element signature="method#q4_2#0;class#DAOQueries#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -610,9 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="method#CoffeMachine#1;class#CoffeMachine#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="method#Ingredients#1;class#Ingredients#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,40 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="method#order_ingredients#1;class#order_ingredients#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/Jdbc/JdbcConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getConn#0;class#JdbcConnector#0" expanded="false" />
-            <element signature="method#close#0;class#JdbcConnector#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/dbC/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="method#User#1;class#User#0" expanded="false" />
-            <element signature="method#User#2;class#User#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,33 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="78" column="54" lean-forward="false" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#DAOUser#0;class#DAOUser#0" expanded="false" />
-            <element signature="method#readUser#0;class#DAOUser#0" expanded="false" />
-            <element signature="method#createUser#0;class#DAOUser#0" expanded="false" />
-            <element signature="method#deleteUser#0;class#DAOUser#0" expanded="false" />
-            <element signature="method#updateUser#0;class#DAOUser#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOQueries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="136" column="5" lean-forward="false" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+        <state relative-caret-position="1241">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#DAOQueries#0;class#DAOQueries#0" expanded="false" />
@@ -749,15 +814,85 @@
             <element signature="method#q2#0;class#DAOQueries#0" expanded="false" />
             <element signature="method#q3#0;class#DAOQueries#0" expanded="false" />
             <element signature="method#q4_1#0;class#DAOQueries#0" expanded="false" />
-            <element signature="method#q4_2#0;class#DAOQueries#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/Jdbc/JdbcConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getConn#0;class#JdbcConnector#0" expanded="false" />
+            <element signature="method#close#0;class#JdbcConnector#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/dbC/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="69" lean-forward="false" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+          <folding>
+            <element signature="method#User#1;class#User#0" expanded="false" />
+            <element signature="method#User#2;class#User#0" expanded="false" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAOUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#DAOUser#0;class#DAOUser#0" expanded="false" />
+            <element signature="method#createUser#0;class#DAOUser#0" expanded="false" />
+            <element signature="method#deleteUser#0;class#DAOUser#0" expanded="false" />
+            <element signature="method#updateUser#0;class#DAOUser#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/Jdbc/JdbcConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="30" column="62" lean-forward="true" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/DAOC/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

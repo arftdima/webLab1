@@ -18,5 +18,8 @@ public class User {
         this.value = value;
         this.name = name;
     }
+    public void prtInfoUser(){
+        System.out.println(id_user + " " + value + " " + name + " ");
+    }
 
 }
